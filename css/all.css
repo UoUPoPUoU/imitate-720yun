@@ -121,11 +121,16 @@ header {
 
 .on:before {
     transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    -o-transform:rotate(30deg);
+    -moz-transform:rotate(30deg);
 }
 
 .on:after {
     transform: rotate(-30deg);
-
+    -webkit-transform: rotate(-30deg);
+    -o-transform:rotate(30deg);
+    -moz-transform:rotate(30deg);
 }
 
 /*logo*/
